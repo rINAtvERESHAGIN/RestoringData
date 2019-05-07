@@ -1,20 +1,65 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<clr-main-container>
+  <clr-header class="header-6">
+
+    <div class="branding">
+      <a href="#" class="nav-link">
+
+        <!--<span class="clr-icon clr-clarity-logo"></span>-->
+          <clr-icon shape="cloud-traffic"></clr-icon>
+        <span class="title">Restoring data</span>
+      </a>
+
+    </div>
+
+
+
+    <!--<div class="header-nav" [clr-nav-level]="1">-->
+      <!--<div>-->
+
+        <!--<a class="nav-link" href="#" [routerLink]="['/allstudent']" routerLinkActive="active">-->
+          <!--<span class="nav-text">University entrants</span>-->
+        <!--</a>-->
+
+        <!--<a class="nav-link" href="#" [routerLink]="['/student-course-group']" routerLinkActive="active">-->
+          <!--<span class="nav-text">Additional info</span>-->
+        <!--</a>-->
+
+        <!--<a class="nav-link" href="#" [routerLink]="['/searchstudent']" routerLinkActive="active">-->
+          <!--<span class="nav-text">History of pay</span>-->
+        <!--</a>-->
+
+      <!--</div>-->
+<!--</div>-->
+
+
+  </clr-header>
+
+<!--Тесты навигации-->
+<!--<div class="main-container">-->
+  <!--<div class="alert alert-app-level">-->
+
+  <!--</div>-->
+
+  <!--&lt;!&ndash;<header class="header header-6">&ndash;&gt;-->
+
+  <!--&lt;!&ndash;</header>&ndash;&gt;-->
+
+  <!--<div class="content-container">-->
+    <!--<div class="content-area">-->
+      <!--<router-outlet></router-outlet>-->
+    <!--</div>-->
+    <!--<nav class="sidenav">-->
+
+    <!--</nav>-->
+  <!--</div>-->
+
+<!--</div>-->
+<!--Конец теста-->
+
+<div class="content-container">
+  <div class="content-area">
+    <router-outlet></router-outlet>
+  </div>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+</clr-main-container>
 
